@@ -16,6 +16,9 @@ class App extends React.Component {
     return quotes[randomNumber];
 
   }
+  shuffleQuotes(array) {
+    return array.sort(() => Math.random() - 0.5)
+  }
 
 }
 export default App;
