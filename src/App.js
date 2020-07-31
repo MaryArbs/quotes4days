@@ -11,3 +11,11 @@ class App extends React.Component {
       author: quotes[0].author,
     };
   }
+  randomQuote() {
+    const randomNumber = Math.floor(Math.random() * quotes.length);
+    return quotes[randomNumber];
+
+  }
+
+}
+export default App;
