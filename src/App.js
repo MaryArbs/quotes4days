@@ -19,6 +19,7 @@ class App extends React.Component {
   shuffleQuotes(array) {
     return array.sort(() => Math.random() - 0.5)
   }
+
   handleClick = () => {
     const generateRandomQuote = this.randomQuote();
     this.setState({
@@ -35,6 +36,18 @@ class App extends React.Component {
       ${Math.floor(Math.random() * 155)})`;
     return color;
   }
+}
 
+render() {
+  return (
+    <div>
+      <QuoteAndAuthor
+        displayColor={this.randomColor}
+        handleClick={this.handleClick}
+        {...this.state}
+      />
+    </div>
+  );
+}
 }
 export default App;
