@@ -31,6 +31,37 @@ const quotes = [
         "quote": "Self-complacency is fatal to progress.",
         "author": "Margaret Sangster"
     },
+    {
+        "quote": "Peace comes from within. Do not seek it without.",
+        "author": "Buddha"
+    }, {
+        "quote": "What you give is what you get.",
+        "author": "Byron Pulsifer"
+    }, {
+        "quote": "We can only learn to love by loving.",
+        "author": "Iris Murdoch"
+    }, {
+        "quote": "Life is change. Growth is optional. Choose wisely.",
+        "author": "Karen Clark"
+    }, {
+        "quote": "You'll see it when you believe it.",
+        "author": "Wayne Dyer"
+    }, {
+        "quote": "Today is the tomorrow we worried about yesterday.",
+        "author": ""
+    }, {
+        "quote": "It's easier to see the mistakes on someone else's paper.",
+        "author": ""
+    }, {
+        "quote": "Every man dies. Not every man really lives.",
+        "author": ""
+    }, {
+        "quote": "To lead people walk behind them.",
+        "author": "Lao Tzu"
+    }, {
+        "quote": "Having nothing, nothing can he lose.",
+        "author": "William Shakespeare"
+    },
 
 ]
 export default quotes
