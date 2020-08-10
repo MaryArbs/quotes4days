@@ -36,18 +36,18 @@ class App extends React.Component {
       ${Math.floor(Math.random() * 155)})`;
     return color;
   }
+
+  render() {
+    return (
+      <div>
+        <QuoteAndAuthor
+          displayColor={this.randomColor}
+          handleClick={this.handleClick}
+          {...this.state}
+        />
+      </div>
+    );
+  }
 }
 
-render() {
-  return (
-    <div>
-      <QuoteAndAuthor
-        displayColor={this.randomColor}
-        handleClick={this.handleClick}
-        {...this.state}
-      />
-    </div>
-  );
-}
-}
 export default App;
