@@ -12,6 +12,7 @@ html {
 
 .quotebox {
   height: auto;
+  margin: auto;
   width: 100%;
   border: 1px rgb(145, 126, 126) solid;
   border-radius: 10px;
